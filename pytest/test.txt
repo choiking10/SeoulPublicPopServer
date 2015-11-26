@@ -1,0 +1,7 @@
+http://openAPI.seoul.go.kr:8088/566d71727563686f38346554465848/xml/GeoInfoPublicToilet/1/1000
+http://openAPI.seoul.go.kr:8088/566d71727563686f38346554465848/xml/GeoInfoPublicToilet/1001/2000
+http://openAPI.seoul.go.kr:8088/566d71727563686f38346554465848/xml/GeoInfoPublicToilet/2001/3000
+http://openAPI.seoul.go.kr:8088/566d71727563686f38346554465848/xml/GeoInfoPublicToilet/3001/4000
+http://openAPI.seoul.go.kr:8088/566d71727563686f38346554465848/xml/GeoInfoPublicToilet/4001/5000
+http://openAPI.seoul.go.kr:8088/566d71727563686f38346554465848/xml/GeoInfoPublicToilet/5001/6000
+CATEGORY
