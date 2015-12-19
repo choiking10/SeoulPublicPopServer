@@ -44,6 +44,24 @@ var server = http.createServer(function (req, res)  {
 		xw.startDocument('1.0', 'UTF-8');
 		console.log("hello")
 
+		if ( req.method == "POST")
+		{
+			var body = "";
+			req.on("data",function(data){
+				body += data;
+				console.log("body : " + body);
+			});
+			req.on("end",function() {
+				var reqdata = JSON.parse(body);
+				console.log(JSON.stringify(reqdata));
+				res.write(JSON.stringify(reqdata));
+				res.end();
+
+				console.log("end")
+
+			});
+		}
+		/*
 		var url_parts = url.parse(req.url,true);
 		for (var q in url_parts.query)
 		{
@@ -68,6 +86,7 @@ var server = http.createServer(function (req, res)  {
 			res.end();
 		});
 		con.release();
+		*/
 	});
 });
 server.listen(8080);
